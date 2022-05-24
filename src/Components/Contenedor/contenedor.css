@@ -1,0 +1,17 @@
+.contenedor{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 75%;
+    max-width: 78rem;
+    margin:70px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    z-index: 100;
+}
+@media (max-width: 900px){
+    .contenedor{
+        width: 90%;
+        margin-top: 20px;
+    }
+}

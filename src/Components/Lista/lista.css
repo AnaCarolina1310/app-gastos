@@ -1,0 +1,25 @@
+
+.fecha {
+ background-color:#0d6efd;
+ color: white;
+ display: inline-block;
+ font-size: 13px;
+ padding:5px 5px;
+ margin: 0px 0px;
+}
+ .card-parrafo{
+    padding-top: 10px;
+}
+.contenedorBotonesImporte{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+@media (max-width: 900px){ 
+    .contenedorBotones{
+        max-height: 35px;
+    }
+    .fecha{
+        font-size: 13px;
+    }
+}

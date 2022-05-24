@@ -1,0 +1,13 @@
+.formularioRegistro{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+}
+
+
+@media (max-width: 900px){
+    .formularioRegistro{
+        width: 90%;
+    }
+}

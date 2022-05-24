@@ -1,0 +1,65 @@
+.formGasto {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   width: 100%;
+  margin: 0px auto;
+}
+.inputFecha{
+    border: none;
+    text-align: center;
+    width: 100%;
+    font-weight: 800;
+}
+.contenedor-inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40%;
+}
+.selectDay{
+    display: flex;
+    justify-content: center;
+}
+.form-select{
+    width: 60%;
+}
+
+input{
+    text-align: center;
+    border: none;
+    border-bottom: solid 1px gray;
+    height: 55px;
+    background-color: transparent;
+}
+
+@media (max-width: 768px){
+.formGasto {
+ flex-direction: column;
+ justify-content: center;
+ }
+.contenedor-inputs{
+   width: 100%;
+ 
+}
+.dayPicker{
+    display: block;
+    margin: 10px auto;
+}
+ .selectDay{
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+   
+ }
+ .selectDay input{
+     width: 100%;
+     background-color: transparent;
+     margin: 5px 10px;
+ }
+ .formGasto input{
+     margin: 5px 10px;
+     
+ }
+
+}
